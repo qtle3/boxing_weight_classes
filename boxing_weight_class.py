@@ -32,6 +32,7 @@ def Boxing():
         (75, "Middleweight"),
     ]
 
+    # Check if the user is a man and print the weight class
     if x == "man":
         print("Olympic Men's boxing")
         for weight, weight_class in men_weight_classes:
@@ -39,9 +40,14 @@ def Boxing():
                 print("kg:", kg)
                 print(weight_class)
                 break
-
+    # Check if the user is a woman and print the weight class
     if x == "woman":
         print("Olympic Women's boxing")
+        for weight, weight_class in women_weight_classes:
+            if kg <= weight:
+                print("kg:", kg)
+                print(weight_class)
+                break
 
 
 Boxing()
