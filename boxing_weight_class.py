@@ -8,11 +8,13 @@ def get_gender():
 
 
 def Boxing():
+    # Get the weight in lbs and gender from the user
     w = float(input("Enter the weight in lbs: "))
     x = get_gender()
+    # Convert the weight to kg
     kg = w / 2.2046
     kg = round(kg, 1)
-
+    # men weight classes
     men_weight_classes = [
         (52, "Flyweight"),
         (57, "Featherweight"),
@@ -23,7 +25,7 @@ def Boxing():
         (91, "Heavyweight"),
         (float("inf"), "Super Heavyweight"),
     ]
-
+    # women weight classes
     women_weight_classes = [
         (51, "Flyweight"),
         (57, "Featherweight"),
