@@ -11,6 +11,15 @@ The Python Boxing Weight Classifier is a simple Python script that determines th
 - Handles invalid input for gender and prompts the user until a valid input is provided.
 - Provides accurate classification for various Olympic weight categories.
 
+## Key Concepts and Topics Covered
+
+- **Python Basics**: Variables, functions, loops, and conditionals.
+- **Data Structures**: Using lists and tuples for weight classes.
+- **Error Handling**: Input validation and user prompts.
+- **String Manipulation**: Normalizing input with string methods.
+- **Arithmetic Operations**: Unit conversion calculations.
+- **Modular Design**: Separation of logic into functions.
+
 ## Olympic Weight Classes
 
 ### Men's Weight Classes
@@ -31,5 +40,3 @@ The Python Boxing Weight Classifier is a simple Python script that determines th
 - **Lightweight:** ≤ 60 kg
 - **Welterweight:** ≤ 69 kg
 - **Middleweight:** ≤ 75 kg
-
-## Installation
